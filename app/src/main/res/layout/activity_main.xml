@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="361dp"
+        android:layout_height="178dp"
+        android:padding="15dp"
+        android:text="Welcome to Wedo"
+        android:textAppearance="@android:style/TextAppearance.Material.Display1"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Plan your perfect day with us!!!" />
+</LinearLayout>
